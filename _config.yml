@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 橙子歪树的Blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: 橙子歪树
+language: zh-CN
 timezone: ''
 
 # URL
@@ -102,5 +102,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Kingsley-Cheng/kingsley-cheng.github.com.git
+  repo: https://github.com/Kingsley-Cheng/kingsley-cheng.github.io
   branch: main

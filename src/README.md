@@ -2,9 +2,9 @@
 home: true
 layout: Blog
 icon: house
-title: Blog Home
+title: 橙子歪树's Blog
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
+heroText: 橙子歪树's Blog
 tagline: You can put your slogan here
 heroFullScreen: true
 projects:

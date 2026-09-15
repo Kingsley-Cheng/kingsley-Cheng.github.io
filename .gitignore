@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 
 node_modules/
 src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
+=======
+**/node_modules/
+
+**/.vuepress/.cache/
+**/.vuepress/.temp/
+**/.vuepress/dist/
+
+.DS_Store
+*.log
+>>>>>>> f1c8099 (first commit)

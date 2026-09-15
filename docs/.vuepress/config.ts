@@ -66,6 +66,9 @@ export default defineUserConfig({
       // 开启PlantUML
       plantuml: true, 
 
+      // 开启隐秘文本
+      plot: true, 
+
     },
   }),
 })

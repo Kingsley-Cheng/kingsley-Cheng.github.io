@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.31",
+    "gh-pages": "^6.3.0",
     "http-server": "^14.1.1",
     "typescript": "^6.0.3",
     "vue": "^3.5.34",

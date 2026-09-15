@@ -17,7 +17,7 @@ config:
           link: /about/
         - theme: alt
           text: Github →
-          link: https://github.com/Kingsley-Cheng?
+          link: https://github.com/Kingsley-Cheng
 title: Blog
 createTime: 2026/09/14 15:41:38
 permalink: /

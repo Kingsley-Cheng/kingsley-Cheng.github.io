@@ -18,10 +18,18 @@ import navMenu from './components/navMenu'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
+
+  // 社交链接
+  social: [
+    { icon: 'github', link: 'https://github.com/Kingsley-Cheng' },
+    { icon: 'zhihu', link: 'https://www.zhihu.com/people/kingsley-cheng-66' }
+  ],
+
   logo: './images/avatar.png',
   appearance:true,
   // 导航栏
   navbar:navMenu,
+  navbarSocialInclude:['github','zhihu'],
   collections,
   autoFrontmatter: {
         title: true, // 自动生成标题

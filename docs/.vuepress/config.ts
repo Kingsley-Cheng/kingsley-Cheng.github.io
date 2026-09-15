@@ -16,6 +16,9 @@ import collections from './collections'
 import navMenu from './components/navMenu'
 
 export default defineUserConfig({
+  head: [
+    ['link', { rel: 'icon', href: './images/avatar.png' }],
+  ],
   base: '/',
   lang: 'zh-CN',
   title: '橙子歪树',
@@ -25,6 +28,10 @@ export default defineUserConfig({
   shouldPrefetch: false,
 
   theme: plumeTheme({
+
+      footer: {
+      message: '',
+    },
 
     // 导航栏设置
     navbar:navMenu,
@@ -68,7 +75,11 @@ export default defineUserConfig({
 
       // 开启隐秘文本
       plot: true, 
-
     },
+
+    // 内容搜索
+    search: { 
+      provider: 'local',
+    }
   }),
 })

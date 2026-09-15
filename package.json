@@ -1,24 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "vuepress-theme-hope-template",
-  "description": "A project of vuepress-theme-hope",
-  "version": "2.0.0",
-  "license": "MIT",
-  "type": "module",
-  "scripts": {
-    "docs:build": "vuepress-vite build src",
-    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
-    "docs:dev": "vuepress-vite dev src",
-    "docs:update-package": "pnpm dlx vp-update"
-  },
-  "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.31",
-    "katex": "^0.18.7",
-    "sass-embedded": "^1.104.0",
-    "vue": "^3.5.42",
-    "vuepress": "2.0.0-rc.31",
-    "vuepress-theme-hope": "2.0.0-rc.109"
-=======
   "name": "my-vuepress-site",
   "type": "module",
   "version": "1.0.0",
@@ -45,6 +25,5 @@
   },
   "dependencies": {
     "pinyin-pro": "^3.29.4"
->>>>>>> f1c8099 (first commit)
   }
 }

@@ -61,7 +61,10 @@ export default defineUserConfig({
          * true 相当于 `all`，相当于同时启用 html 和 markdown
          */
         copy: false, // true | 'all' | 'html' | 'md'
-      }
+      },
+
+      // 开启PlantUML
+      plantuml: true, 
 
     },
   }),

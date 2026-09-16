@@ -28,21 +28,19 @@ export default defineUserConfig({
   shouldPrefetch: false,
 
   theme: plumeTheme({
-
-      footer: {
+    footer: {
       message: '',
     },
 
     // 导航栏设置
-    navbar:navMenu,
+    navbar: navMenu,
     // 集合设置
-    collections:collections,
+    collections: collections,
 
     // 自动生成yaml
     autoFrontmatter: {
-        title: true, // 自动生成标题
-        createTime: true, // 自动生成创建时间
-        permalink: true, // 自动生成永久链接
+      title: true, // 自动生成标题
+      createTime: true, // 自动生成创建时间
     },
 
     // markdown 设置
@@ -53,7 +51,7 @@ export default defineUserConfig({
       },
 
       // 内容注释
-      annotation: true, 
+      annotation: true,
       // 表格增强
       table: {
         // 表格默认对齐方式 'left' | 'center' | 'right'
@@ -71,14 +69,14 @@ export default defineUserConfig({
       },
 
       // 开启PlantUML
-      plantuml: true, 
+      plantuml: true,
 
       // 开启隐秘文本
-      plot: true, 
+      plot: true,
     },
 
     // 内容搜索
-    search: { 
+    search: {
       provider: 'local',
     }
   }),

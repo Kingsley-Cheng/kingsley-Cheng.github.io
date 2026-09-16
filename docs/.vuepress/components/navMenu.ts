@@ -18,6 +18,11 @@ const navMenus = [
                 text:'FRM(一级)',
                 link:'/frm1/',
                 icon: 'mdi:bank-outline',
+            },
+            {
+                text:'中级经济师',
+                link:'/economist1/',
+                icon: 'mdi:account-tie-outline',
             }
 
         ]

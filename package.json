@@ -25,6 +25,7 @@
     "node": "^20.19.0 || >=22.0.0"
   },
   "dependencies": {
+    "mermaid": "^11.17.2",
     "pinyin-pro": "^3.29.4"
   }
 }
